@@ -1,0 +1,391 @@
+{
+  "intents": [
+    {
+      "tag": "sambutan",
+      "patterns": [
+        "sore",
+        "malam",
+        "siang",
+        "pagi",
+        "halo",
+        "hai",
+        "hey",
+        "Tolong Bantu saya?"
+      ],
+      "responses": [
+        "ada yang bisa saya bantu?",
+        "iya ada apa, ada yang bisa saya bantu?"
+      ]
+    },
+    {
+      "tag": "perpisahan",
+      "patterns": ["dadah", "Sampai jumpa", "selamat tinggal"],
+      "responses": [
+        "dadah!!",
+        "Sampai jumpa juga",
+        "datang lagi senang membantu anda"
+      ]
+    },
+    {
+      "tag": "terimakasih",
+      "patterns": ["Terima Kasih", "makasih", "sangant membantu", "terima kasih sudah membantu"],
+      "responses": ["Terima kasih kemabali", "sama-sama", "dengan senang hati"]
+    },
+    {
+      "tag": "pendaftaran",
+      "patterns": [
+        "Bagaimana cara mendaftar?",
+        "saya ingin mendaftar",
+        "Dimana saya mendaftar?",
+        "berikan saya link pendaftaran",
+        "pendaftaran",
+        "daftar",
+        "link pendaftaaran"
+      
+      ],
+      "responses": [
+        "Anda bisa mendaftar melalui situs resmi universitas atau kamu bisa menggunakan link ini ==> https://ucb.ac.id/main/ "]
+    },
+    {
+      "tag": "biaya",
+      "patterns": [
+        "berapa biaya pendaftaran?",
+        "berapa total biaya masuk?",
+        "biaya masuk?",
+        "rincian biaya?",
+        "biaya",
+        "total biaya",
+        "berapa biaya",
+        "berapa uang",
+        "uang masuk"
+      ],
+      "responses": [ 
+        "pendaftaran 1 prodi = Rp 200.000, NEO PRO = Rp 500.00, SPI = Rp 4.750.000, SPP = Rp 1.350.000, SISTEM = Rp 100.000, SKS teori = Rp 2.100.000 dan SERAGAM = Rp 800.000 (TOTAL = Rp9.800.000)"
+      ]
+    },
+    {
+      "tag": "TesMasuk",
+      "patterns": [
+        "Apakah ada tes masuk?",
+        "ada tes masuk?",
+        "untuk masuk apakah ada tesnya?",
+        "tes masuk",
+        "tesmasuk",
+        "ujian masuk",
+        "masuk"
+      ],
+      "responses": [ 
+        "YA, Ada tes untuk masuk prodi TI, kamu akan mengetahui tesnya seperti apa ketika mendaftar"
+      ]
+    },
+    {
+      "tag": "akreditasi",
+      "patterns": [
+        "Apa Akreditasi Prodi TI skrg?",
+        "prodi TI Akreditasinya apa?"
+      ],
+      "responses": [ 
+        "Untuk sekarang Akreditasi Prodi TI adalah BAIK"
+    ]
+    },
+    {
+      "tag": "beasiswa",
+      "patterns": [
+        "Apakah prodi TI ada beasiswanya?",
+        "Apakah ada beasiswa untuk mahasiswa baru?",
+        "apakah kampus menyediakan beasiswa?"
+      ],
+      "responses": [ 
+        "Ada Beasiswa yang bisa kamu Ambil yaitu AF(Abraham Foundation) dan KIP, untuk informasi lebih lanjut kamu bisa datang ke kampus Universitas Citra Bangsa!"
+    ]
+    },
+    {
+      "tag": "ospek",
+      "patterns": [
+        "apa ada ospek untuk mahasiswa baru?",
+        "apa ada neo pro untuk mahasiswa baru?",
+        "apakah mahasiswa baru akan mengikuti ospek",
+        "apakah mahasiswa baru akan mengikuti Neo Pro",
+        "apakah mahasiswa wajib mengikuti ospek?",
+        "ospek",
+        "neo pro",
+        "neoPro"
+      ],
+      "responses": [ 
+        "Ya, tapi namanya bukan ospek melainkan neo pro dan WAJIB diikuti."
+    ]
+    },
+    {
+      "tag": "tempatOspek",
+      "patterns": [
+        "Dimana Tempat neo pro Dilaksanakan?",
+        "lantai berapa neo pro dilakukan?",
+        "lantai berapa ospek dilaksanakan?",
+        "tempat ospek dilakukan",
+        "tempat osepk dilaksanakan",
+        "tempat neo pro dilaksanakan"
+      ],
+      "responses": [ 
+        "Neo Pro Dilaksanakan Di Kampus Universitas Citra Bangsa Tepatnya di Lantai 5"
+    ]
+    },
+    {
+      "tag": "organisasi",
+      "patterns": [
+        "Apakah ada organisasi?",
+        "organisasi apa saja yang ada?",
+        "apa ada organisasi yang bisa diikuti?",
+        "organisasi"
+      ],
+      "responses": [ 
+        "Ada berbagai macam organisa yang bisa kamu ikuti yaitu PMK, KMK, HMM, VOlY, Futsal, HMPS, Mapala"
+    ]
+    },
+    {
+      "tag": "fasilitas",
+      "patterns": [
+        "fasilitas apa saja yang disediakan?",
+        "apa saja fasilitas yang ada??",
+        "fasilitas"
+      ],
+      "responses": [ 
+        "Untuk Saat ini Prodi menyediakan Lab Komputer dan juga Lab Hardware yang bisa di gunakan oleh mahasiswa"
+    ]
+    },
+    {
+      "tag": "fasilitas",
+      "patterns": [
+        "fasilitas apa saja yang disediakan?",
+        "apa saja fasilitas yang ada??",
+        "fasilitas"
+      ],
+      "responses": [ 
+        "Untuk Saat ini Prodi menyediakan Lab Komputer dan juga Lab Hardware yang bisa di gunakan oleh mahasiswa"
+    ]
+    },
+    {
+      "tag": "ruangan",
+      "patterns": [
+        "Dimana ruangan kuliah?",
+        "Lantai Berapa perkuliahan di lakukan",
+        "ruangan",
+        "ruang"
+      ],
+      "responses": [ 
+        "Perkuliahan biasanya di lantai 2 Ruangan 202 tapi tergantung ruangan sedang dipakai atau dosen ingin melaksanakan perkuliahan diLAB atau ruangan lain jadi mahasiswa harus memasitikan terlebihb dahulu ke dosen yang mengajar"
+    ]
+    },
+    {
+      "tag": "proyektor",
+      "patterns": [
+        "Dimana tempat mengambil proyektor?",
+        "Dimana tempat mengambil LCD?",
+        "Dimana tempat mengambil Remote Proyektor?",
+        "Dimana tempat mengambil Remote LCD?",
+        "LCD",
+        "proyektor",
+        "remote proyektor",
+        "remote LCD,"
+        
+      ],
+      "responses": [ 
+        "Remote Proyektor dapa di ambil di ruangan biro Kemahasiswaan samping ruangan admin, tapi harus di ingat jika ingin mengambil harus membawa KTP/SIM/Kartu Pelajar"
+    ]
+    },
+    {
+      "tag": "asrama",
+      "patterns": [
+        "Apakah Kampus masih menyediakan Asrama?",
+        "asrama",
+        "apakah ada asrama?"
+      ],
+      "responses": [ 
+        "Ya kampus masih menyediakan asrama"
+    ]
+    },
+    {
+      "tag": "siakad",
+      "patterns": [
+        "link siakad",
+        "link untuk mengisi krs?",
+        "krs",
+        "siakad"
+      ],
+      "responses": [ 
+        "berikut adalah link Siakad https://cyber-chmk.net/siakad/"
+    ]
+    },
+    {
+      "tag": "kode",
+      "patterns": [
+        "berapa kode spi",
+        "berapa kode spp",
+        "apa kode spp",
+        "apa kode spi",
+        "spi",
+        "spp",
+        "kode byar"
+      ],
+      "responses": [ 
+        "kode pembayaran SPP = 3130 Dan SPI = 3133"
+    ]
+    },
+    {
+      "tag": "mental",
+      "patterns": [
+        "perlengkapan apa saja yang di perlukan untuk mengikuti perkuliahan",
+        "perlengkapan apa yang saya butuhkan"
+      ],
+      "responses": [ 
+        "yang kamu harus siapkan jika menggikuti perkuliahan adalah buku, laptop, niat belajar dan mental baja"
+    ]
+    },
+    {
+      "tag": "gelombang",
+      "patterns": [
+        "kapan pendaftaran dibuka?",
+        "kapan pendaftaran gelombang dibuka?"
+      ],
+      "responses": [ 
+        "Gel 1 -> 14 feb sampai 31 maret, Gel 2 -> 3 April sampai 30 Juni, Gel 3 -> 3 juli sampai 31 agustus"
+    ]
+    },
+    {
+      "tag": "motivasi",
+      "patterns": [
+        "kasi saya motivasi",
+        "berikans saya sebuah motivasi",
+        "motivasi"
+      ],
+      "responses": [ 
+        "persetan dengan motivasi selesaikan apa yang telah kamu mulai!",
+        "MOTIVASI MOTIVASI CUIHHH TAUSAH BELAJAR BIAR ORANG LAIN SUKSES"
+    ]
+    },
+    {
+      "tag": "Baju",
+      "patterns": [
+        "Apakah ada baju prodi?",
+        "baju prodi?",
+        "dapat baju prodi?",
+        "baju angkatan?",
+        "warna baju angkatan?",
+        "warna baju prodi?"
+      ],
+      "responses": [ 
+        "Yaa tentu ada, dan ada pula logo yang bisa di diskusikan terlebih dahulu designnya oleh teman- teman sekalian dan untuk warnanya biru dongker"
+
+    ]
+    }, 
+    {
+      "tag": "Berkas",
+      "patterns": [
+        "Berkas apa saja yang harus di siapkan?",
+        "Berkas apa saja yang harus di kumpulkan?",
+        "Dokumen apa saja yang perlu di siapkan",
+        "Dokumen apa saja yang perlu di kumpulkan",
+        "berkas apa?",
+        "Dokumen apa??"
+      ],
+      "responses": [ 
+        "Berkas yang perlu di kumpulkan adalah FotoCopy -> KTP, KK< Ijasah, Kartu KIP (jika ada), dan materai 10.000 untuk di tempel pada surat pernyataan."
+
+    ]
+    },
+    {
+      "tag": "aturan",
+      "patterns": [
+        "Apakah ada aturan adalam berpakaian",
+        "pakaian apa yang harus di pakai?",
+        "baju yang di harus di pakai ketika mengikuti pelajaran"
+      ],
+      "responses": [ 
+        "Walaupun Teknik biasanya terkenal dengan kebebasan Tapi harus tetap Tapi Yaitu dengan menggunakan baju berkerak dan memakai celana Panjang dan tidak boleh robek dan tidak boleh menggunakan jaket/sweater"
+
+    ]
+    },
+    {
+      "tag": "kaprodi",
+      "patterns": [
+        "Siapa kepala prodi sekarang?",
+        "Siapa kaprodi sekarang?",
+        "nama kaprodi sekarang?",
+        "kaprodi"
+      ],
+      "responses": [ 
+        "Kepala Prodi atau Kaprodi sekarang adalah James Adam Seo, S.kom, M.kom"
+
+    ]
+    },
+    {
+      "tag": "sks",
+      "patterns": [
+        "berapa biaya SKS teori?",
+        "berapa biaya SKS praktek?",
+        "sks teori",
+        "sks praktek",
+        "sks"
+      ],
+      "responses": [ 
+        "Untuk biaya Praktek sebesar Rp125.000 dan Teori Rp 100.000 permata kuliah jadi kamu bisa akumulasikan dengan jumlah matkul yang kamu ambil "
+
+    ]
+    },
+    {
+      "tag": "bayar",
+      "patterns": [
+        "dimana tempat bayar uang  kuliah",
+        "dimana bayar uang kulih",
+        "tempat bayar",
+        "bayar"
+      ],
+      "responses": [ 
+        "Untuk membayar uang kuliah dan lain-lainya kamu Bisa melalui BANK NTT terdekat atau BANK NTT yang ada di kampus"
+
+    ]
+    },
+    {
+      "tag": "klinik",
+      "patterns": [
+        "apakah ada klinik?",
+        "apakah ada puskesmas?",
+        "apakah kampus menyediakan klinik?",
+        "apakah kampus menyediakan puskes,as?",
+        "klinik?",
+        "puskesmas?"
+      ],
+      "responses": [ 
+        "Ya ada didekat kampus yaitu klinik Husada"
+
+    ]
+    },
+    {
+      "tag": "spmb",
+      "patterns": [
+        "info jalur spmb",
+        "jalur spmb",
+        "apa jalur spmb?",
+        "apa jalur spmb di kampus?",
+        "spmb",
+        "seleksi penerimaan mahasiswa baru"
+      ],
+      "responses": [ 
+        "untuk mengetahui informasi terkait SPMB kamu bisa langsung mengunjungin link berikut => https://ucb.siakadcloud.com/spmbfront/jalur-seleksi"
+
+    ]
+    },
+    {
+      "tag": "owner",
+      "patterns": [
+        "siapa yang membuat kamu?",
+        "siapa yang membuat chatbot ini?",
+        "siapa yang mendisain kamu?"
+      ],
+      "responses": [ 
+        "saya adalah chatbot yang dibuat oleh seorang mahasiswa yang sangat ganteng, baik hati dan rajin menabung yang bernama BAYU HUSADA"
+
+    ]
+    }
+
+  ]
+}
