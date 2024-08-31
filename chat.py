@@ -33,7 +33,7 @@ bot_name = "chatkuy"
 
 def generate_gemini_response(prompt):
     model = genai.GenerativeModel("gemini-1.5-flash")
-    response = model.generate_content("kamu adalah chatbot yang menjawab pertanyaan yang sesui dengan respons yang natural dengan batas 20 kata  :" + prompt)
+    response = model.generate_content("kamu adalah chatbot yang menjawab pertanyaan yang sesuai dengan respons yang natural dengan batas 20 kata  :" + prompt)
     return response.text
 
  
