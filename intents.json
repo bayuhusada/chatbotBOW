@@ -49,14 +49,14 @@
     {
       "tag": "biaya",
       "patterns": [
-        "berapa biaya pendaftaran?",
-        "berapa total biaya masuk?",
-        "biaya masuk?",
+        "biaya pendaftaran?",
+        "total biaya masuk?",
+        "biaya masuk?", 
         "rincian biaya?",
         "biaya",
         "total biaya",
-        "berapa biaya",
-        "berapa uang",
+        "biaya",
+        "uang",
         "uang masuk"
       ],
       "responses": [ 
@@ -66,13 +66,11 @@
     {
       "tag": "TesMasuk",
       "patterns": [
-        "Apakah ada tes masuk?",
+        "tes masuk?",
         "ada tes masuk?",
-        "untuk masuk apakah ada tesnya?",
         "tes masuk",
         "tesmasuk",
-        "ujian masuk",
-        "masuk"
+        "ujian masuk"
       ],
       "responses": [ 
         "YA, Ada tes untuk masuk prodi TI, kamu akan mengetahui tesnya seperti apa ketika mendaftar"
@@ -81,7 +79,8 @@
     {
       "tag": "akreditasi",
       "patterns": [
-        "Apa Akreditasi Prodi TI skrg?",
+        "Akreditasi Prodi TI sekarang?",
+        "Akreditasi",
         "prodi TI Akreditasinya apa?"
       ],
       "responses": [ 
@@ -91,9 +90,10 @@
     {
       "tag": "beasiswa",
       "patterns": [
-        "Apakah prodi TI ada beasiswanya?",
-        "Apakah ada beasiswa untuk mahasiswa baru?",
-        "apakah kampus menyediakan beasiswa?"
+        "prodi TI ada beasiswanya?",
+        " ada beasiswa untuk mahasiswa baru?",
+        "kampus menyediakan beasiswa?",
+        "beasiswa?"
       ],
       "responses": [ 
         "Ada Beasiswa yang bisa kamu Ambil yaitu AF(Abraham Foundation) dan KIP, untuk informasi lebih lanjut kamu bisa datang ke kampus Universitas Citra Bangsa!"
